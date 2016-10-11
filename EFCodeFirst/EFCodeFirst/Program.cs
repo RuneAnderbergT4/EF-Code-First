@@ -12,26 +12,52 @@ namespace EFCodeFirst
     {
         static void Main(string[] args)
         {
+            //using (AdventureContext db = new AdventureContext())
+            //{
+            //    Equipment swordOfGlory = new Equipment
+            //    {
+            //        Name = "Sword of Glory",
+            //        PowerBonus = 3,
+            //        ToughnessBonus = 2
+            //    };
+
+            //    Creature kingArthur = new Creature
+            //    {
+            //        Name = "King Arthur",
+            //        Power = 5,
+            //        Toughness = 8,
+            //        Equipment = new List<Equipment>()
+            //    };
+            //    kingArthur.Equipment.Add(swordOfGlory);
+
+            //    db.Creatures.Add(kingArthur);
+            //    db.SaveChanges();
+            //}
+
             using (AdventureContext db = new AdventureContext())
             {
-                Equipment swordOfGlory = new Equipment
+                foreach (var c in db.Creatures)
                 {
-                    Name = "Sword of Glory",
-                    PowerBonus = 3,
-                    ToughnessBonus = 2
-                };
+                    var totalPower = c.Power;
+                    var totalToughness = c.Toughness;
 
-                Creature kingArthur = new Creature
-                {
-                    Name = "King Arthur",
-                    Power = 5,
-                    Toughness = 8,
-                    Equipment = new List<Equipment>()
-                };
-                kingArthur.Equipment.Add(swordOfGlory);
+                    Console.WriteLine("Name: " + c.Name);
+                    Console.WriteLine("Power: " + c.Power + "   Toughness: " + c.Toughness);
+                    Console.WriteLine("Equipment: ");
 
-                db.Creatures.Add(kingArthur);
-                db.SaveChanges();
+                    foreach (var e in c.Equipment)
+                    {
+                        totalPower += e.PowerBonus;
+                        totalToughness += e.ToughnessBonus;
+
+                        Console.WriteLine(e.Name);
+                    }
+
+                    Console.WriteLine("Total Power: " + totalPower + "   Total Toughness: " + totalToughness);
+                    Console.WriteLine();
+                }
+
+                Console.ReadLine();
             }
         }
     }
