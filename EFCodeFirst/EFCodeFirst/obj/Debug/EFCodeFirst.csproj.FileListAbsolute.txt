@@ -1,0 +1,12 @@
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.exe.config
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.exe
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EFCodeFirst.pdb
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\DBClasses.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\DBClasses.pdb
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.xml
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.csprojResolveAssemblyReference.cache
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.exe
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\EFCodeFirst\obj\Debug\EFCodeFirst.pdb

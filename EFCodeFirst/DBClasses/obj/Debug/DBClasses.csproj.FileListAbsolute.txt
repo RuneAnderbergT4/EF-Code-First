@@ -1,0 +1,10 @@
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\DBClasses.dll.config
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\DBClasses.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\DBClasses.pdb
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\EntityFramework.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\EntityFramework.xml
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\obj\Debug\DBClasses.csprojResolveAssemblyReference.cache
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\obj\Debug\DBClasses.dll
+C:\Git\RuneAnderbergT4\EF-Code-First\EFCodeFirst\DBClasses\obj\Debug\DBClasses.pdb
